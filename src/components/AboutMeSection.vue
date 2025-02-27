@@ -4,7 +4,7 @@
 
     <v-row class="customBlue content mt-5">
       <v-col cols="12" md="4" sm="12" class="d-flex justify-center pa-0" data-aos="fade-right">
-        <v-img src="../assets/img/Fernando.png" max-height="300" max-width="300" style="margin-top: -77px"></v-img>
+        <v-img src="../assets/img/FernandoRuelas1.png" max-height="400" max-width="300" style="margin-top: -77px"></v-img>
       </v-col>
       <v-col cols="12" md="8" sm="12" class="justify-start flex-column align-start" data-aos="fade-left">
         <v-row class="justify-start flex-column align-start">

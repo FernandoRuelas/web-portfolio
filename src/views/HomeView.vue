@@ -5,10 +5,9 @@
       <home-section></home-section>
       <projects-section></projects-section>
       <AboutMeSection></AboutMeSection>
-<footer-section></footer-section>
-      
-<btn-scroll></btn-scroll>
-      
+      <footer-section></footer-section>
+
+      <btn-scroll></btn-scroll>
     </div>
   </v-app>
 </template>
@@ -30,5 +29,12 @@ export default {
     BtnScroll,
     FooterSection,
   },
+  mounted() {
+    if (!localStorage.getItem("isDarkMode")) {
+      localStorage.setItem("isDarkMode", true);
+    }
+  },
+
+  methods: {},
 };
 </script>
