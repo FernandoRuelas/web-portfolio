@@ -71,5 +71,7 @@
   "sentFormQuestion": "¿Estás seguro de enviar el mensaje?",
   "cancel": "Cancelar",
   "emailSend": "Tu mensaje ha sido enviado exitosamente",
-  "emailSendError": "Hubo un problema al enviar tu mensaje. Intenta nuevamente"
+  "emailSendError": "Hubo un problema al enviar tu mensaje. Intenta nuevamente",
+    "stillHere":"¿aún aquí?",
+  "miPortfolio":"Mi portafolio"
 }

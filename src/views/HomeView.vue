@@ -33,8 +33,21 @@ export default {
     if (!localStorage.getItem("isDarkMode")) {
       localStorage.setItem("isDarkMode", true);
     }
+    document.addEventListener("visibilitychange", this.handleTabChange);
   },
+  beforeDestroy() {
+    document.removeEventListener("visibilitychange", this.handleTabChange);
+  },
+  computed: {},
 
-  methods: {},
+  methods: {
+    handleTabChange() {
+      if (document.hidden) {
+        document.title = `😢 ${this.$t("stillHere")}`;
+      } else {
+        document.title = `${this.$t("miPortfolio")}`; // Change this to your actual page title
+      }
+    },
+  },
 };
 </script>

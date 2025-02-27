@@ -74,5 +74,8 @@
   "sentFormQuestion": "Are you sure you want to send the message?",
   "cancel": "Cancel",
   "emailSend": "Your message has been successfully sent",
-  "emailSendError": "There was a problem sending your message. Please try again"
+  "emailSendError": "There was a problem sending your message. Please try again",
+
+  "stillHere":"Still here?",
+  "miPortfolio":"My portfolio"
 }
