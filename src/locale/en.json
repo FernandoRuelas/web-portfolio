@@ -1,0 +1,78 @@
+{
+  "home": "Home",
+  "projects": "Projects",
+  "aboutMe": "About me",
+  "downloadCV": "Download CV",
+  "hi": "Hi, I am",
+  "frontendDeveloper": "Frontend Developer",
+  "contactMe": "Contact me",
+  "experience2Plus": "Experience 2+",
+  "personalProjects": "Personal Projects",
+  "thereAreMyPersonalProjects": "There are my personal projects",
+  "websiteDesign": "Website design",
+  "mobileDesign": "Mobile design",
+  "experience": "Experience",
+  "work": "Work",
+  "personalExperience": "Personal",
+  "sectionProjects": {
+    "documentsTitle": "Documents",
+    "documentsDesc": "An online document editor inspired by Google Docs, featuring collaborative tools and an intuitive interface. You can create a document using a template or start from a blank document.",
+    "moreDetails": "Details",
+
+    "landingPage": "Landing Page",
+    "landingPsiclogDes": "Design and development of a professional landing page for a psychologist, optimized to attract clients and build trust.",
+
+    "red1": "Red 1 - Internet Services",
+    "red1Des": "Website for an internet service company, where customers can explore plans, manage online payments, and access support efficiently.",
+
+    "trackingTitle": "Tracking App",
+    "trackingDesc": "A scalable application with real-time tracking capabilities for mobile vendors, such as ice cream carts and food trucks, enhancing logistics and route monitoring.",
+
+    "framework": "Custom UI Framework",
+    "documentationWorkDes": "A UI component framework designed by me, featuring detailed documentation. Inspired by Vuetify, but with custom improvements and greater flexibility."
+  },
+  "technologiesUsed":"Technologies used",
+  "try":"Try",
+
+  "aboutMeDes": "I am a passionate and persistent web developer dedicated to creating exceptional user experiences. I enjoy working in teams, sharing knowledge, and continuously learning to stay up to date with the latest trends and technologies in the industry. I have a fast autonomous learning ability, strong problem-solving logic, and a challenge-oriented mindset. I am always exploring new tools and updates to be prepared for any challenge. ",
+
+  "achievementsWork": "Key Achievements In My Work",
+
+  "achievementsWork1Title": "Development of Reusable Components",
+  "achievementsWork1Des": "Designed and developed a library of components inspired by Material Design, optimized for reusability and efficiency across various projects. These components are available via a CDN, allowing seamless integration like any other framework.",
+
+  "achievementsWork2Title": "Project and Technology Documentation",
+  "achievementsWork2Des": "Created an interactive and user-friendly platform that centralizes documentation for projects, components, and technologies used by the team, facilitating knowledge sharing and best practice adoption.",
+
+  "achievementsWork3Title": "Efficient Onboarding for New Team Members",
+  "achievementsWork3Des": "Developed an intuitive platform designed to help new team members quickly familiarize themselves with the workflow. This platform includes detailed documentation and practical exercises to accelerate their integration.",
+
+  "achievementsWork4Title": "Timely Delivery and Adaptability",
+  "achievementsWork4Des": "Consistently delivers projects on time with a fast understanding and adoption of new technologies, ensuring efficient and innovative solutions.",
+
+  "schoolProjects":"School Projects",
+  "Interchip":"Interchip",
+
+  "schoolDes": "During my studies at the Instituto Tecnológico de Sonora (ITSON), where I earned my degree as a Software Engineer, I developed a variety of projects that allowed me to specialize in web development. Throughout my academic journey, I gained experience creating web pages and small projects using technologies such as JavaScript, CSS, HTML, and Bootstrap.",
+  
+  "internshipDes": "During my professional internship at Didcom, located in Hermosillo, Sonora, I worked for four months developing dashboards using Vue and React for the company's internal projects. Additionally, I collaborated with a multidisciplinary team that included professionals from various fields, such as electronics, to carry out an IoT project. In this project, I led the frontend development team for two months, managing progress and ensuring the correct implementation of the user interface.",
+
+  "workDes": "Following my successful performance during my internship, I received an offer to join Didcom as a Frontend Developer. Currently, my daily responsibilities include analyzing requirements and transforming them into low-fidelity design proposals, which later evolve into digital prototypes in Figma. Once approved, I develop solutions following best practices to ensure clean, efficient, and scalable code. Additionally, I work with technologies such as Google Maps API and Highcharts, among others, to meet project requirements and deliver innovative and functional solutions.",
+
+  "formTitle":"Interested in my work?",
+  "formSubtitle":"Get in touch! Fill out the form and I'll get back to you as soon as possible.",
+  
+  "yourName": "Your name",
+  "yourEmail": "Your email",
+  "yourPhoneNumber": "Your phone number",
+  "writeMeAMessage": "Write me a message",
+    "send":"Send",
+
+    "validEmail": "The email must be in a valid format",
+  "sentForm1": "By sending it, I will be able to see your message. It is important that your details, such as your phone number,",
+  "sentForm2": "are correct, as that is where I will be able to contact you",
+  "sentFormQuestion": "Are you sure you want to send the message?",
+  "cancel": "Cancel",
+  "emailSend": "Your message has been successfully sent",
+  "emailSendError": "There was a problem sending your message. Please try again"
+}

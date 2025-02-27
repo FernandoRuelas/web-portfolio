@@ -1,0 +1,75 @@
+{
+  "home": "Inicio",
+  "projects": "Proyectos",
+  "aboutMe": "Sobre mí",
+  "downloadCV": "Descargar CV",
+  "hi": "Hola, soy",
+  "frontendDeveloper": "Desarrollador Frontend",
+  "contactMe": "Contáctame",
+  "experience2Plus": "Experiencia 2+",
+  "personalProjects": "Proyectos Personales",
+  "thereAreMyPersonalProjects": "Aquí están mis proyectos personales",
+  "websiteDesign": "Diseño de sitios web",
+  "mobileDesign": "Diseño móvil",
+  "experience": "Experiencia",
+  "work": "Trabajo",
+  "personalExperience": "Personal",
+  "sectionProjects": {
+    "documentsTitle": "Documents",
+    "documentsDesc": "Un editor de documentos en línea inspirado en Google Docs, con funciones colaborativas y una interfaz intuitiva. Puedes crear un documento a través de una plantilla o comenzar desde un documento en blanco.",
+    "moreDetails": "Detalles",
+
+    "landingPage": "Landing Page",
+    "landingPsiclogDes": "Diseño y desarrollo de una landing page profesional para una psicóloga, optimizada para captar clientes y generar confianza.",
+
+    "red1": "Red 1 - Internet Services",
+    "red1Des": "Sitio web para una empresa de internet, donde los clientes pueden explorar planes, gestionar sus pagos en línea y obtener soporte de manera eficiente.",
+
+    "trackingTitle": "Tracking App",
+    "trackingDesc": "Aplicación con posibilidad de escalar a rastreo en tiempo real para vendedores móviles, como carritos de nieve y food trucks, mejorando la logística y seguimiento de rutas.",
+
+    "framework": "Custom UI Framework",
+    "documentationWorkDes": "Un framework de componentes UI diseñado por mí, con documentación detallada. Inspirado en Vuetify, pero con mejoras personalizadas y mayor flexibilidad."
+  },
+  "technologiesUsed": "Tecnologias utilizadas",
+  "try": "Probar",
+
+  "aboutMeDes": "Soy un desarrollador web apasionado y persistente, dedicado a crear experiencias de usuario excepcionales. Disfruto trabajar en equipo, compartir conocimientos y aprender constantemente para mantenerme al día con las últimas tendencias y tecnologías del sector. Me caracterizo por una rápida capacidad de aprendizaje autónomo, una sólida lógica para la resolución de problemas y una mentalidad orientada a los retos. Siempre busco explorar nuevas herramientas y actualizaciones para estar preparado ante cualquier desafío.",
+
+  "achievementsWork": "Logros Destacados En Mi Trabajo",
+
+  "achievementsWork1Title": "Desarrollo de Componentes Reutilizables",
+  "achievementsWork1Des": "Diseño y desarrollo de una biblioteca de componentes inspirados en Material Design, optimizados para ser reutilizables y eficientes en distintos proyectos. Estos componentes están disponibles a través de un CDN, permitiendo su integración de manera sencilla, como cualquier otro framework.",
+  "achievementsWork2Title": "Documentación de Proyectos y Tecnologías",
+  "achievementsWork2Des": "Creación de una plataforma interactiva y amigable que centraliza la documentación de proyectos, componentes y tecnologías utilizadas por el equipo de trabajo, facilitando la consulta y adopción de buenas prácticas.",
+  "achievementsWork3Title": "Onboarding Eficiente para Nuevos Integrantes:",
+  "achievementsWork3Des": "Desarrollo de una plataforma intuitiva diseñada para que los nuevos miembros del equipo puedan familiarizarse rápidamente con la metodología de trabajo. Esta plataforma incluye documentación detallada y ejercicios prácticos para agilizar su integración.",
+  "achievementsWork4Title": "Entrega Puntual y Adaptabilidad",
+  "achievementsWork4Des": "Capacidad para entregar proyectos en los tiempos establecidos, con una rápida comprensión y adopción de nuevas tecnologías, garantizando soluciones eficientes e innovadoras.",
+
+  "schoolProjects": "Proyectos Escolares",
+  "Interchip": "Practicas profecionales",
+
+  "schoolDes": "Durante mi formación en el Instituto Tecnológico de Sonora (ITSON), donde culmine mis estudios como Ingeniero en Software, desarrollé una variedad de proyectos que me permitieron especializarme en el desarrollo web. A lo largo de mi trayectoria académica, adquirí experiencia creando páginas web y pequeños proyectos utilizando tecnologías como JavaScript, CSS, HTML y Bootstrap.",
+
+  "internshipDes": "Durante mis prácticas profesionales en Didcom, ubicadas en Hermosillo, Sonora, trabajé durante cuatro meses en el desarrollo de dashboards utilizando Vue y React para proyectos internos de la empresa. Además, colaboré con un equipo multidisciplinario que incluía profesionales de distintas áreas, como electrónica, para llevar a cabo un proyecto IoT. En este proyecto, lideré el equipo de desarrollo frontend durante dos meses, gestionando el avance y asegurando la correcta implementación de la interfaz de usuario.",
+
+  "workDes": "Tras el exitoso desempeño en mis prácticas profesionales, recibí una oferta para unirme a Didcom como Desarrollador Frontend. Actualmente, mi labor diaria implica el análisis de requerimientos y su transformación en propuestas de diseño de baja fidelidad, que posteriormente evolucionan en prototipos digitales en Figma. Una vez aprobados, desarrollo las soluciones siguiendo las mejores prácticas para garantizar un código limpio, eficiente y escalable. Asimismo, trabajo con tecnologías como Google Maps API y Highcharts, entre otras, para cumplir con los requerimientos del proyecto y ofrecer soluciones innovadoras y funcionales.",
+  
+  "formTitle": "¿Interesado en mi trabajo?",
+  "formSubtitle": "¡Ponte en contacto conmigo! Completa el formulario y me pondré en contacto contigo lo antes posible.",
+  "yourName":"Tu nombre",
+  "yourEmail":"Tu correo electronico",
+  "yourPhoneNumber":"Tu numero celular",
+  "writeMeAMessage":"Escribeme un mensaje",
+  "send":"Enviar",
+
+
+  "validEmail": "El correo debe tener un formato válido",
+  "sentForm1": "Al enviarlo podré ver tu mensaje, es importante que tus datos como número telefónico",
+  "sentForm2": "sea correcto ya que es a donde podré contactarte",
+  "sentFormQuestion": "¿Estás seguro de enviar el mensaje?",
+  "cancel": "Cancelar",
+  "emailSend": "Tu mensaje ha sido enviado exitosamente",
+  "emailSendError": "Hubo un problema al enviar tu mensaje. Intenta nuevamente"
+}
