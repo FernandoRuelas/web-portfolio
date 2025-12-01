@@ -217,6 +217,20 @@ export default {
             { img: require("../assets/img/technologies/driverJs.png"), name: "driver js", icon: null, color: null },
           ],
         },
+         {
+          img: require("../assets/img/projects/red1Update.png"),
+        title: this.$t("sectionProjects.red1"),
+          description: this.$t("sectionProjects.red1Des"),
+          src: "https://red1-landing.vercel.app/",
+          gif: require("../assets/gif/red1Update.gif"),
+          technologies: [
+            { img: null, name: "Vue 3", icon: "mdi-vuejs", color: "green" },
+            { img: null, name: "Vuetify 3", icon: "mdi-vuetify", color: "blue" },
+            { img: null, name: "JS", icon: "mdi-language-javascript", color: "yellow" },
+            { img: null, name: "CSS", icon: "mdi-language-css3", color: "blue" },
+            { img: null, name: "HTML 5", icon: "mdi-language-html5", color: "orange" },
+          ],
+        },
       ];
     },
     openDialog(item) {

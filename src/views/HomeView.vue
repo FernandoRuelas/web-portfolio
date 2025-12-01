@@ -13,6 +13,9 @@
 </template>
 
 <script>
+
+
+
 import MyHeader from "@/components/MyHeader.vue";
 import HomeSection from "@/components/HomeSection.vue";
 import AboutMeSection from "@/components/AboutMeSection.vue";
@@ -29,6 +32,9 @@ export default {
     BtnScroll,
     FooterSection,
   },
+  data:()=>({
+    
+  }),
   mounted() {
     if (!localStorage.getItem("isDarkMode")) {
       localStorage.setItem("isDarkMode", true);

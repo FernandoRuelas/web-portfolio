@@ -27,7 +27,7 @@
         </v-list>
       </v-menu>
       <v-btn icon @click="toggleDarkMode"><v-icon>mdi-theme-light-dark</v-icon></v-btn>
-      <!-- <v-btn color="primary" ><v-icon>mdi-download</v-icon>{{$t("downloadCV")}}</v-btn> -->
+     <v-btn color="primary" ><v-icon>mdi-download</v-icon>{{$t("downloadCV")}}</v-btn>
     </div>
 
     <v-navigation-drawer hide-overlay style="height: 100vh" v-model="drawer" temporary absolute class="d-md-none" color="card">
@@ -117,7 +117,7 @@ export default {
 .my-nav {
   display: flex;
 
-  gap: 15px;
+  gap: 45px;
 }
 
 .my-nav p {

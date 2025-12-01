@@ -6,7 +6,7 @@
   "hi": "Hola, soy",
   "frontendDeveloper": "Desarrollador Frontend",
   "contactMe": "Contáctame",
-  "experience2Plus": "Experiencia 2+",
+  "experience2Plus": "Experiencia 3+",
   "personalProjects": "Proyectos Personales",
   "thereAreMyPersonalProjects": "Aquí están mis proyectos personales",
   "websiteDesign": "Diseño de sitios web",
@@ -73,5 +73,6 @@
   "emailSend": "Tu mensaje ha sido enviado exitosamente",
   "emailSendError": "Hubo un problema al enviar tu mensaje. Intenta nuevamente",
     "stillHere":"¿aún aquí?",
-  "miPortfolio":"Mi portafolio"
+  "miPortfolio":"Mi portafolio",
+    "webDeveloper":"Desarrollador Web"
 }

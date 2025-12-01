@@ -22,7 +22,7 @@
 
   
     <v-row class="mt-7">
-      <vue-marquee-slider id="marquee-slider" :speed="10000" :width="100" :space="50">
+      <vue-marquee-slider id="marquee-slider" :speed="20000" :width="100" :space="50">
           <div class="d-flex flex-column align-center"  v-for="(item, index) in insicnias" :key="index">
             <v-icon v-if="item.icon" :color="item.color">{{ item.icon }}</v-icon>
             <v-img v-else :src="item.img" class="mi-imagen" max-height="25px" max-width="25px"></v-img>
@@ -31,7 +31,7 @@
       </vue-marquee-slider>
     </v-row>
     <v-row class="mt-5">
-      <vue-marquee-slider id="marquee-slider-2" :speed="10000" width="100%" reverse :space="50">
+      <vue-marquee-slider id="marquee-slider-2" :speed="20000" width="100%" reverse :space="50">
           <div class="d-flex flex-column align-center" v-for="(item, index) in tools" :key="index">
             <v-icon v-if="item.icon" :color="item.color">{{ item.icon }}</v-icon>
             <v-img v-if="!item.icon" :src="item.img" class="mi-imagen" max-height="25px" max-width="25px"></v-img>

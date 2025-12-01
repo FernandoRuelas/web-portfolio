@@ -1,11 +1,15 @@
 <template>
-  <div id="home" class="d-flex flex-wrap justify-space-around" style="height: 90vh">
-    <div data-aos="fade-right" class="d-flex flex-column align-self-center align-start content-container" style="gap: 5px">
-      <div class="d-flex flex-column align-start">
+  <div id="home" class="d-flex flex-wrap justify-center" style="height: 90vh; gap:180px;">
+    <div data-aos="fade-right" class="d-flex flex-column align-self-center align-start content-container" style="gap: 5px; min-width: 490px;">
+      <div class="d-flex flex-column align-start" >
         <p class="mb-0 text">{{ $t("hi") }}</p>
         <p class="mb-0 text">Fernando R Ruelas</p>
       </div>
-      <h1 class="text-1">{{ $t("frontendDeveloper") }}</h1>
+
+      <typewriter :replace="replace" :type-interval="100" :replace-interval="1000">
+        <h1 class="text-1">{{ $t("webDeveloper") }}</h1>
+      </typewriter>
+      
       <div class="d-flex" style="gap: 5px">
         <v-btn outlined small fab color="indigo" target="_blank" href="https://www.instagram.com/fernando_ruelas03?igsh=MWZjNml4OG1ydDF4Ng==">
           <v-icon>mdi-instagram</v-icon>
@@ -18,8 +22,18 @@
         </v-btn>
       </div>
       <div class="d-flex mt-3" style="gap: 30px">
-        <v-btn color="primary" @click="()=>{this.$scrollTo('#contactMe')}">{{ $t("contactMe") }}</v-btn>
-        <v-btn color="primary" @click="downloadCV" outlined><v-icon>mdi-download</v-icon>{{ $t("downloadCV") }}</v-btn>
+        <v-btn
+          color="primary"
+           class="pa-5"
+          @click="
+            () => {
+              this.$scrollTo('#contactMe');
+            }
+          "
+          >{{ $t("contactMe") }}</v-btn
+        >
+        <v-btn color="primary" @click="downloadCV" outlined><v-icon>mdi-download</v-icon>{{ $t("downloadCV") }}</v-btn> 
+        <!-- <button id="btn" @click="downloadCV"><v-icon color="primary">mdi-download</v-icon>{{ $t("downloadCV") }}</button> -->
       </div>
 
       <h2 class="primary--text text-2 mt-5">{{ $t("experience2Plus") }}</h2>
@@ -29,11 +43,21 @@
 </template>
 
 <script>
+import Typewriter from "typewriter-vue";
 import "../style/GeneralStyle.css";
 
 export default {
   name: "HomeSection",
+  components: {
+    Typewriter,
+  },
   data: () => ({}),
+
+  computed: {
+    replace() {
+      return [{ from: this.$t("webDeveloper"), to: this.$t("frontendDeveloper") }];
+    },
+  },
   methods: {
     downloadCV() {
       const link = document.createElement("a");
@@ -76,4 +100,36 @@ export default {
   background-color: rgba(0, 0, 225, 0.05);
   border-radius: 50%;
 }
+
+/* From Uiverse.io by zjssun */ 
+button {
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #2196F3;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #2196F3;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+#btn:hover {
+  color: #ffffff;
+  background: #006bb3; /* Un azul menos intenso */
+  border: 1px solid #006bb3;
+  text-shadow: 0 0 1px #ffffff; /* Menos shadow para el texto */
+  box-shadow: 0 0 2px #006bb3, 0 0 10px #006bb3, 0 0 20px #006bb3;
+}
+
+
+#btn:hover i{
+  color: #ffffff!important;
+}
+
+
 </style>

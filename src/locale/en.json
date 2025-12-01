@@ -6,7 +6,7 @@
   "hi": "Hi, I am",
   "frontendDeveloper": "Frontend Developer",
   "contactMe": "Contact me",
-  "experience2Plus": "Experience 2+",
+  "experience2Plus": "Experience 3+",
   "personalProjects": "Personal Projects",
   "thereAreMyPersonalProjects": "There are my personal projects",
   "websiteDesign": "Website design",
@@ -77,5 +77,6 @@
   "emailSendError": "There was a problem sending your message. Please try again",
 
   "stillHere":"Still here?",
-  "miPortfolio":"My portfolio"
+  "miPortfolio":"My portfolio",
+  "webDeveloper":"Web Developer"
 }
