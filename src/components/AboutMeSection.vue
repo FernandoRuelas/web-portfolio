@@ -101,8 +101,8 @@ export default {
   methods: {
     downloadCV() {
       const link = document.createElement("a");
-      link.href = "/files/FernandoRodriguezRuelas_CV2025.pdf"; // Directly reference it from public folder
-      link.download = "FernandoRodriguezRuelas_CV2025.pdf";
+      link.href = "/files/FernandoRodriguezRuelas_CV.pdf"; // Directly reference it from public folder
+      link.download = "FernandoRodriguezRuelas_CV.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

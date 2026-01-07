@@ -38,10 +38,10 @@ export default {
     return {
       valid: false,
       form: {
-        name: "Fernando",
-        email: "fernando.rodriguez@didcom.com.mx",
-        message: "Hi i am interested in your work",
-        tel: "6221562893",
+        name: "",
+        email: "",
+        message: "",
+        tel: "",
       },
       userId: "uy_YVeT0GsY0S2KsU",
       emailRule: (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) || this.$t("validEmail"),
