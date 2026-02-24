@@ -29,7 +29,11 @@
     "trackingDesc": "Aplicación con posibilidad de escalar a rastreo en tiempo real para vendedores móviles, como carritos de nieve y food trucks, mejorando la logística y seguimiento de rutas.",
 
     "framework": "Custom UI Framework",
-    "documentationWorkDes": "Un framework de componentes UI diseñado por mí, con documentación detallada. Inspirado en Vuetify, pero con mejoras personalizadas y mayor flexibilidad."
+    "documentationWorkDes": "Un framework de componentes UI diseñado por mí, con documentación detallada. Inspirado en Vuetify, pero con mejoras personalizadas y mayor flexibilidad.",
+    
+    "ruelasTeam":"Ruelas Team",
+    "ruelasTeamDes":"Landing page para el equipo Ruelas Team con suscripciones."
+  
   },
   "technologiesUsed": "Tecnologias utilizadas",
   "try": "Probar",

@@ -29,7 +29,10 @@
     "trackingDesc": "A scalable application with real-time tracking capabilities for mobile vendors, such as ice cream carts and food trucks, enhancing logistics and route monitoring.",
 
     "framework": "Custom UI Framework",
-    "documentationWorkDes": "A UI component framework designed by me, featuring detailed documentation. Inspired by Vuetify, but with custom improvements and greater flexibility."
+    "documentationWorkDes": "A UI component framework designed by me, featuring detailed documentation. Inspired by Vuetify, but with custom improvements and greater flexibility.",
+  
+    "ruelasTeam":"Ruelas Team",
+    "ruelasTeamDes":"Landing page for the Ruelas Team with subscriptions."
   },
   "technologiesUsed":"Technologies used",
   "try":"Try",

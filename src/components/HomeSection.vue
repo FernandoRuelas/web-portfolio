@@ -6,9 +6,9 @@
         <p class="mb-0 text">Fernando R Ruelas</p>
       </div>
 
-      <typewriter :replace="replace" :type-interval="100" :replace-interval="1000">
+      <!-- <typewriter :replace="replace" :type-interval="100" :replace-interval="1000"> -->
         <h1 class="text-1">{{ $t("webDeveloper") }}</h1>
-      </typewriter>
+      <!-- </typewriter> -->
       
       <div class="d-flex" style="gap: 5px">
         <v-btn outlined small fab color="indigo" target="_blank" href="https://www.instagram.com/fernando_ruelas03?igsh=MWZjNml4OG1ydDF4Ng==">
@@ -43,13 +43,13 @@
 </template>
 
 <script>
-import Typewriter from "typewriter-vue";
+//import Typewriter from "typewriter-vue";
 import "../style/GeneralStyle.css";
 
 export default {
   name: "HomeSection",
   components: {
-    Typewriter,
+   // Typewriter,
   },
   data: () => ({}),
 

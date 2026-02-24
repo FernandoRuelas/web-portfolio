@@ -27,7 +27,7 @@
         </v-list>
       </v-menu>
       <v-btn icon @click="toggleDarkMode"><v-icon>mdi-theme-light-dark</v-icon></v-btn>
-     <v-btn color="primary" ><v-icon>mdi-download</v-icon>{{$t("downloadCV")}}</v-btn>
+     <v-btn color="primary" @click="downloadCV()"><v-icon>mdi-download</v-icon>{{$t("downloadCV")}}</v-btn>
     </div>
 
     <v-navigation-drawer hide-overlay style="height: 100vh" v-model="drawer" temporary absolute class="d-md-none" color="card">
@@ -79,6 +79,14 @@ export default {
   methods: {
     toggleDarkMode() {
       this.isDark = !this.isDark;
+    },
+    downloadCV() {
+      const link = document.createElement("a");
+      link.href = "/files/FernandoRodriguezRuelas_CV.pdf"; // Directly reference it from public folder
+      link.download = "FernandoRodriguezRuelas_CV.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     },
 
     changedLanguage(language) {
