@@ -161,7 +161,7 @@ export default {
           img: require("../assets/img/projects/ruelasteam.png"),
         title: this.$t("sectionProjects.ruelasTeam"),
           description: this.$t("sectionProjects.ruelasTeamDes"),
-          src: "https://teamruelas.com.mx",
+          src: "https://ruelasteam.com.mx",
           gif: require("../assets/gif/teamruelas.gif"),
           technologies: [
             { img: null, name: "Vue 3", icon: "mdi-vuejs", color: "green" },
